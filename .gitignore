@@ -1,10 +1,7 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-Gemfile.lock
-*.swp
+/public/
+/resources/_gen/
+.hugo_build.lock
 .DS_Store
-screenshot-home.png
-fetched-css.txt
-screenshot-home2.png
+*.swp
+screenshot*.png
+fetched-css*.txt

@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Grey Wing Security"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  dateFormat = "January 2, 2006"
+  description = "Expert managed security, incident response, and compliance services to protect your organization."
+  copyright = "&copy; {year} Grey Wing Security, LLC. All rights reserved."
+
+[params.author]
+  name = "Grey Wing Security"
+  email = "contact@greywingsec.com"
+  headline = "Cybersecurity You Can Trust"
+  bio = "Grey Wing Security helps organizations defend against modern threats with expert security services."
+  links = [
+    { email = "mailto:contact@greywingsec.com" },
+    { linkedin = "https://linkedin.com/company/grey-wing-security" },
+  ]

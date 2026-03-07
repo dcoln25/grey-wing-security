@@ -1,7 +1,11 @@
 ---
-layout: page
-title: Services
-permalink: /services/
+title: "Services"
+description: "Managed security services, incident response, and compliance solutions from Grey Wing Security."
+showDate: false
+showAuthor: false
+showReadingTime: false
+showWordCount: false
+showTableOfContents: true
 ---
 
 ## Managed Security Services
@@ -14,6 +18,8 @@ We act as an extension of your team, providing continuous monitoring, threat det
 - Endpoint detection and response (EDR)
 - Regular security reporting and executive briefings
 
+---
+
 ## Incident Response
 
 When a security incident strikes, every minute counts. Our incident response team provides:
@@ -23,6 +29,8 @@ When a security incident strikes, every minute counts. Our incident response tea
 - Malware analysis and threat intelligence
 - Recovery planning and execution
 - Post-incident review and hardening recommendations
+
+---
 
 ## Compliance
 
@@ -36,4 +44,10 @@ Navigating regulatory and industry compliance can be complex. We help you achiev
 
 ---
 
-*Need a custom engagement? [Contact us](/contact/) to discuss your specific requirements.*
+{{< lead >}}
+Need a custom engagement? Every organization is different.
+{{< /lead >}}
+
+{{< button href="/contact/" target="_self" >}}
+Contact Us →
+{{< /button >}}
