@@ -27,6 +27,6 @@ Whether you're a CISO, IT manager, or business owner trying to understand your r
 
 ## Stay Connected
 
-Follow us on [LinkedIn](https://linkedin.com/company/grey-wing-security) and check back here regularly for new posts. If there's a topic you'd like us to cover, [reach out](/contact/) — we'd love to hear from you.
+Follow us on [LinkedIn](https://linkedin.com/company/grey-wing-security) and check back here regularly for new posts. If there's a topic you'd like us to cover, [reach out](../../contact/) — we'd love to hear from you.
 
 Stay secure.

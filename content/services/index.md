@@ -48,6 +48,6 @@ Navigating regulatory and industry compliance can be complex. We help you achiev
 Need a custom engagement? Every organization is different.
 {{< /lead >}}
 
-{{< button href="/contact/" target="_self" >}}
+{{< button href="../contact/" target="_self" >}}
 Contact Us →
 {{< /button >}}

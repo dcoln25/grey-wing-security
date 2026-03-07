@@ -9,11 +9,11 @@ description: "Expert managed security, incident response, and compliance service
 
 Grey Wing Security helps organizations defend against modern threats with expert managed security, incident response, and compliance services.
 
-{{< button href="/about/" target="_self" >}}
+{{< button href="about/" target="_self" >}}
 Learn More About Us
 {{< /button >}}
 &nbsp;
-{{< button href="/contact/" target="_self" >}}
+{{< button href="contact/" target="_self" >}}
 Contact Us
 {{< /button >}}
 
@@ -55,7 +55,7 @@ Navigate complex regulatory requirements with confidence. Achieve and maintain c
 
 </div>
 
-{{< button href="/services/" target="_self" >}}
+{{< button href="services/" target="_self" >}}
 Explore All Services →
 {{< /button >}}
 
