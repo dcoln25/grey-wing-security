@@ -1,0 +1,26 @@
+title: Grey Wing Security, LLC
+description: Protecting your digital assets with expert cybersecurity services.
+url: "https://greywingsec.com"
+baseurl: ""
+
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

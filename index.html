@@ -1,0 +1,77 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="container">
+    <h1>Cybersecurity You Can <span class="accent">Trust</span></h1>
+    <p>Grey Wing Security helps organizations defend against modern threats with expert managed security, incident response, and compliance services.</p>
+    <div class="hero-buttons">
+      <a href="{{ '/services/' | relative_url }}" class="btn btn-primary">Our Services</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" style="text-align:center;">
+  <div class="container">
+    <h2 class="section-title">Why Grey Wing Security?</h2>
+    <p class="section-subtitle">We bring deep expertise and a proactive approach to protecting your business.</p>
+    <div class="features-row">
+      <div class="feature-item">
+        <h3>24/7</h3>
+        <p>Around-the-clock monitoring and support</p>
+      </div>
+      <div class="feature-item">
+        <h3>100%</h3>
+        <p>Commitment to your security posture</p>
+      </div>
+      <div class="feature-item">
+        <h3>Fast</h3>
+        <p>Rapid incident response when it matters</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="text-align:center;">
+  <div class="container">
+    <h2 class="section-title">What We Do</h2>
+    <p class="section-subtitle">Comprehensive cybersecurity services tailored to your needs.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">&#128737;</div>
+        <h3>Managed Security Services</h3>
+        <p>Continuous monitoring, threat detection, and security operations so you can focus on running your business.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#9889;</div>
+        <h3>Incident Response</h3>
+        <p>Rapid containment and recovery when a breach occurs. We help you minimize damage and get back online fast.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128203;</div>
+        <h3>Compliance</h3>
+        <p>Navigate complex regulatory requirements with confidence. We help you achieve and maintain compliance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" style="text-align:center;">
+  <div class="container">
+    <h2 class="section-title">Latest from the Blog</h2>
+    <p class="section-subtitle">Insights and analysis on the cybersecurity landscape.</p>
+    <div class="blog-list">
+      {% for post in site.posts limit:3 %}
+      <div class="blog-card">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
+        <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <p style="margin-top:2rem;"><a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">View All Posts</a></p>
+  </div>
+</section>
