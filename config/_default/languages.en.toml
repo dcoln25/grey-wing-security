@@ -13,11 +13,7 @@ title = "Grey Wing Security"
   copyright = "&copy; 2026 Grey Wing Security, LLC. All rights reserved."
 
 [params.author]
-  name = "Grey Wing Security"
+  name = ""
   email = "contact@greywingsec.com"
   headline = "Cybersecurity You Can Trust"
   bio = "Grey Wing Security helps organizations defend against modern threats with expert security services."
-  links = [
-    { email = "mailto:contact@greywingsec.com" },
-    { linkedin = "https://linkedin.com/company/grey-wing-security" },
-  ]

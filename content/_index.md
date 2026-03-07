@@ -5,10 +5,6 @@ description: "Expert managed security, incident response, and compliance service
 
 <div class="flex flex-col items-center text-center">
 
-## Cybersecurity You Can Trust
-
-Grey Wing Security helps organizations defend against modern threats with expert managed security, incident response, and compliance services.
-
 {{< button href="about/" target="_self" >}}
 Learn More About Us
 {{< /button >}}
