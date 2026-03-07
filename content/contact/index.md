@@ -24,14 +24,18 @@ Have a question, need a consultation, or ready to get started? Reach out through
 
 ## Send Us a Message
 
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width: 600px;">
+<form action="https://formsubmit.co/contact@greywingsec.com" method="POST" style="max-width: 600px;">
+  <input type="hidden" name="_subject" value="New contact from Grey Wing Security website">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://dcoln25.github.io/grey-wing-security/contact/">
+  <input type="text" name="_honey" style="display:none">
   <div style="margin-bottom: 1rem;">
     <label for="name" style="display: block; margin-bottom: 0.25rem; font-weight: 500;">Name</label>
     <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; background: rgba(255,255,255,0.05); color: inherit; font-size: 1rem;">
   </div>
   <div style="margin-bottom: 1rem;">
     <label for="email" style="display: block; margin-bottom: 0.25rem; font-weight: 500;">Email</label>
-    <input type="email" id="email" name="_replyto" required style="width: 100%; padding: 0.75rem; border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; background: rgba(255,255,255,0.05); color: inherit; font-size: 1rem;">
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; background: rgba(255,255,255,0.05); color: inherit; font-size: 1rem;">
   </div>
   <div style="margin-bottom: 1rem;">
     <label for="company" style="display: block; margin-bottom: 0.25rem; font-weight: 500;">Company</label>
@@ -43,5 +47,3 @@ Have a question, need a consultation, or ready to get started? Reach out through
   </div>
   <button type="submit" style="padding: 0.75rem 2rem; background: #4f8ff7; color: #fff; border: none; border-radius: 8px; font-weight: 600; font-size: 1rem; cursor: pointer;">Send Message</button>
 </form>
-
-<small style="color: rgba(255,255,255,0.5);">To activate this form, replace <code>YOUR_FORM_ID</code> in the page source with your <a href="https://formspree.io" target="_blank">Formspree</a> form ID.</small>
