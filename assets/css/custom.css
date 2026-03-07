@@ -1,3 +1,8 @@
+:root {
+  --color-neutral-800: 10, 10, 10;
+  --color-neutral-900: 0, 0, 0;
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
