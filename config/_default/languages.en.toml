@@ -8,7 +8,7 @@ title = "Grey Wing Security"
   displayName = "EN"
   isoCode = "en"
   dateFormat = "January 2, 2006"
-  logo = "img/logo.jpg"
+  logo = "img/logo.svg"
   description = "Expert managed security, incident response, and compliance services to protect your organization."
   copyright = "&copy; {year} Grey Wing Security, LLC. All rights reserved."
 
