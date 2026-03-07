@@ -17,6 +17,8 @@ defaults:
     values:
       layout: "post"
 
+theme: null
+
 plugins:
   - jekyll-seo-tag
 

@@ -6,3 +6,5 @@ Gemfile.lock
 *.swp
 .DS_Store
 screenshot-home.png
+fetched-css.txt
+screenshot-home2.png
