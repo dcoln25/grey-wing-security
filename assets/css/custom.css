@@ -1,3 +1,18 @@
+/* Fix light mode: swap neutral scale so text is dark on light backgrounds */
+html:not(.dark) {
+  --color-neutral: 15, 23, 42;
+  --color-neutral-50: 15, 23, 42;
+  --color-neutral-100: 30, 41, 59;
+  --color-neutral-200: 51, 65, 85;
+  --color-neutral-300: 71, 85, 105;
+  --color-neutral-400: 100, 116, 139;
+  --color-neutral-500: 148, 163, 184;
+  --color-neutral-600: 203, 213, 225;
+  --color-neutral-700: 226, 232, 240;
+  --color-neutral-800: 241, 245, 249;
+  --color-neutral-900: 248, 250, 252;
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
