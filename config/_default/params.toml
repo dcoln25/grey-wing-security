@@ -5,6 +5,8 @@ autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = true
 
+defaultSocialImage = "og-image.png"
+
 [header]
   layout = "fixed"
 
