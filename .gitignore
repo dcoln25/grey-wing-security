@@ -5,3 +5,6 @@
 *.swp
 screenshot*.png
 fetched-css*.txt
+check.png
+light-mode.png
+.venv/
