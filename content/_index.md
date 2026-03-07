@@ -23,9 +23,9 @@ Contact Us
 Comprehensive security services tailored to your needs.
 {{< /lead >}}
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+<div class="service-grid">
 
-<div style="padding: 1.5rem; border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
+<div class="service-card">
 
 ### Managed Security Services
 
@@ -33,7 +33,7 @@ Continuous monitoring, threat detection, and security operations so you can focu
 
 </div>
 
-<div style="padding: 1.5rem; border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
+<div class="service-card">
 
 ### Incident Response
 
@@ -41,7 +41,7 @@ Rapid containment and recovery when a breach occurs. We minimize damage and get 
 
 </div>
 
-<div style="padding: 1.5rem; border: 1px solid rgba(255,255,255,0.1); border-radius: 12px;">
+<div class="service-card">
 
 ### Compliance
 
