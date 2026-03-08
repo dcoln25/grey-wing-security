@@ -46,16 +46,14 @@ Navigating regulatory and industry compliance can be complex. We help you achiev
 
 ## IT Engineering
 
-Technology moves fast — your infrastructure should keep pace. Our IT Engineering team designs, builds, and optimizes modern environments using the latest industry trends and best practices:
+Modern infrastructure built for performance, scalability, and security. We design and optimize environments using the latest industry practices:
 
-- **Cloud Architecture & Migration** — Strategic planning and execution for AWS, Azure, and GCP environments
-- **Zero Trust Network Design** — Identity-centric security architectures that eliminate implicit trust
-- **Infrastructure as Code (IaC)** — Automated, repeatable deployments with Terraform, Ansible, and CloudFormation
-- **AI & Automation Integration** — Leveraging machine learning and AI-driven tooling to streamline operations and threat detection
-- **Hybrid & Multi-Cloud Strategy** — Unified management across on-premises, private, and public cloud environments
-- **DevSecOps Implementation** — Embedding security into CI/CD pipelines for faster, safer software delivery
-- **Edge Computing & IoT Security** — Securing distributed devices and data processing at the network edge
-- **Containerization & Orchestration** — Kubernetes and Docker-based platforms for scalable, resilient workloads
+- Cloud architecture and migration (AWS, Azure, GCP)
+- Zero trust network design
+- Infrastructure as Code (Terraform, Ansible, CloudFormation)
+- AI and automation integration
+- DevSecOps and CI/CD pipeline security
+- Containerization and orchestration (Kubernetes, Docker)
 
 ---
 
