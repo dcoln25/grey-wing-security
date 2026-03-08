@@ -71,9 +71,13 @@ Explore All Services →
 
 ## Why Grey Wing Security?
 
+<div style="text-align: left;">
+
 - **Proactive Defense** — We focus on prevention, not just reaction
 - **Clear Communication** — Security shouldn't be a black box
 - **Continuous Improvement** — Our approach evolves as threats change daily
 - **24/7 Support** — Around-the-clock monitoring and rapid response
+
+</div>
 
 ---
