@@ -1,0 +1,7 @@
+<script>
+  // Force dark mode - clear any stale light mode preference
+  if (localStorage.getItem("appearance") === "light") {
+    localStorage.setItem("appearance", "dark");
+  }
+  document.documentElement.classList.add("dark");
+</script>

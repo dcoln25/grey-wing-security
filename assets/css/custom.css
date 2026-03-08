@@ -3,17 +3,32 @@
   --color-neutral-900: 0, 0, 0;
 }
 
-/* Force all content headings and strong text to white in dark mode */
-.dark h1,
-.dark h2,
-.dark h3,
-.dark h4,
-.dark .prose h1,
-.dark .prose h2,
-.dark .prose h3,
-.dark .prose h4,
-.dark .prose strong {
+/* Force all headings and content text to white - covers both .dark and non-dark
+   since this is a dark-only site (extend-head.html forces dark class) */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main .prose h1,
+main .prose h2,
+main .prose h3,
+main .prose h4,
+main .prose strong,
+main .prose p,
+main .prose li,
+main .article-content h2,
+main .article-content h3,
+main .article-content p,
+main .article-content li,
+main .article-content strong {
   color: rgb(248, 250, 252) !important;
+}
+
+/* Force dark background on body regardless of dark class */
+body {
+  background-color: rgb(0, 0, 0) !important;
 }
 
 /* Fix homepage buttons: stack vertically on mobile */
@@ -26,10 +41,25 @@
   }
 }
 
-/* Mobile menu: ensure full black background */
-.dark #mobile-menu-toggle:checked ~ [role="dialog"] {
-  background: rgb(0, 0, 0) !important;
-  background-color: rgb(0, 0, 0) !important;
+/* Mobile menu: white background with black text */
+#mobile-menu-toggle:checked ~ [role="dialog"] {
+  background: rgb(255, 255, 255) !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+#mobile-menu-toggle:checked ~ [role="dialog"] nav a,
+#mobile-menu-toggle:checked ~ [role="dialog"] nav span {
+  color: rgb(0, 0, 0) !important;
+}
+
+#mobile-menu-toggle:checked ~ [role="dialog"] label {
+  color: rgb(0, 0, 0) !important;
+  background: rgb(240, 240, 240) !important;
+  border-color: rgb(200, 200, 200) !important;
+}
+
+#mobile-menu-toggle:checked ~ [role="dialog"] label svg path {
+  fill: rgb(0, 0, 0) !important;
 }
 
 .service-grid {
