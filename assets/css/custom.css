@@ -31,22 +31,25 @@ body {
   background-color: rgb(0, 0, 0) !important;
 }
 
-/* Mobile: left-align section body text */
+/* Mobile: center headings, left-align body text */
 @media (max-width: 768px) {
-  main .prose,
-  main .article-content,
-  main section {
-    text-align: left !important;
-  }
-
+  main h1,
+  main h2,
+  main h3,
+  main h4,
   main .prose h1,
   main .prose h2,
   main .prose h3,
-  main .prose h4,
+  main .prose h4 {
+    text-align: center !important;
+  }
+
   main .prose p,
   main .prose li,
   main .prose ul,
-  main .prose ol {
+  main .prose ol,
+  main .article-content p,
+  main .article-content li {
     text-align: left !important;
   }
 }
