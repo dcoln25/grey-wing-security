@@ -27,6 +27,10 @@ Comprehensive security services tailored to your needs.
 
 <div class="service-card">
 
+<div class="service-icon">
+  <img src="img/icon-managed-security.svg" alt="Managed Security Services" />
+</div>
+
 ### Managed Security Services
 
 Continuous monitoring, threat detection, and security operations so you can focus on running your business.
@@ -35,6 +39,10 @@ Continuous monitoring, threat detection, and security operations so you can focu
 
 <div class="service-card">
 
+<div class="service-icon">
+  <img src="img/icon-incident-response.svg" alt="Incident Response" />
+</div>
+
 ### Incident Response
 
 Rapid containment and recovery when a breach occurs. We minimize damage and get you back online fast.
@@ -42,6 +50,10 @@ Rapid containment and recovery when a breach occurs. We minimize damage and get 
 </div>
 
 <div class="service-card">
+
+<div class="service-icon">
+  <img src="img/icon-compliance.svg" alt="Compliance" />
+</div>
 
 ### Compliance
 

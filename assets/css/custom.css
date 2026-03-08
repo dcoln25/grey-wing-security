@@ -96,6 +96,18 @@ body {
   padding: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
+  text-align: center;
+}
+
+.service-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.service-icon img {
+  width: 80px;
+  height: 80px;
 }
 
 .contact-form input,
