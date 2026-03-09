@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 440" fill="none">
+  <defs>
+    <linearGradient id="wg" x1="0%" y1="20%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#b8bfce"/>
+      <stop offset="100%" stop-color="#707a90"/>
+    </linearGradient>
+    <linearGradient id="wg2" x1="20%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#c4cad6"/>
+      <stop offset="100%" stop-color="#7d8698"/>
+    </linearGradient>
+  </defs>
+  <!-- Wing body / base curve -->
+  <path d="M40 360 Q60 300 90 260 Q120 310 80 380 Z" fill="url(#wg)" opacity="0.5"/>
+  <!-- Primary flight feathers (long, sweeping) -->
+  <path d="M50 350 C30 260, 30 160, 80 60 C100 120, 108 200, 95 290 Z" fill="url(#wg)" opacity="0.92"/>
+  <path d="M100 360 C80 270, 76 170, 130 62 C148 130, 152 210, 140 296 Z" fill="url(#wg)" opacity="0.88"/>
+  <path d="M150 366 C134 280, 132 184, 186 76 C200 145, 202 224, 190 304 Z" fill="url(#wg2)" opacity="0.84"/>
+  <path d="M198 368 C186 288, 190 200, 240 100 C252 164, 252 240, 240 312 Z" fill="url(#wg2)" opacity="0.80"/>
+  <!-- Secondary feathers (medium) -->
+  <path d="M244 364 C236 296, 244 220, 290 134 C298 192, 296 258, 286 320 Z" fill="url(#wg)" opacity="0.75"/>
+  <path d="M286 354 C282 298, 290 244, 330 172 C336 222, 334 278, 324 330 Z" fill="url(#wg)" opacity="0.70"/>
+  <path d="M322 340 C320 294, 330 250, 364 194 C368 236, 364 284, 356 326 Z" fill="url(#wg2)" opacity="0.65"/>
+  <!-- Covert feathers (short, top of wing) -->
+  <path d="M354 322 C354 286, 362 256, 390 216 C392 248, 388 288, 380 316 Z" fill="url(#wg2)" opacity="0.58"/>
+  <path d="M380 302 C382 274, 388 250, 410 222 C412 248, 408 278, 402 298 Z" fill="url(#wg)" opacity="0.50"/>
+  <path d="M402 284 C404 262, 410 244, 428 222 C428 244, 424 268, 418 282 Z" fill="url(#wg)" opacity="0.42"/>
+  <!-- Subtle wing edge highlight -->
+  <path d="M50 350 C30 260, 30 160, 80 60" stroke="#9da5b8" stroke-width="1.5" opacity="0.3" fill="none"/>
+</svg>
