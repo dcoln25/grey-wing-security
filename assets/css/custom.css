@@ -114,11 +114,16 @@ body {
 .contact-form textarea {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(15, 23, 42, 0.18);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.05);
-  color: inherit;
+  background: #ffffff;
+  color: #0f172a;
   font-size: 1rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #64748b;
 }
 
 .contact-form input:focus,
