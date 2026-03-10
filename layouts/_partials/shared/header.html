@@ -3,8 +3,8 @@
     <a class="flex items-center" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
       {{ with site.Params.logo }}
         {{ with resources.Get . }}
-          {{ $logo := .Fit "240x72 webp q90" }}
-          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-12 xl:h-14 w-auto object-contain" />
+          {{ $logo := .Fit "420x132 webp q90" }}
+          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-14 xl:h-20 w-auto object-contain" />
         {{ else }}
           {{ partial "utilities/image.html" (dict "src" . "class" "h-12 xl:h-14 w-auto object-contain") }}
         {{ end }}
@@ -29,8 +29,8 @@
         <a class="flex items-center xl:hidden" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
           {{ with site.Params.logo }}
             {{ with resources.Get . }}
-              {{ $logo := .Fit "240x72 webp q90" }}
-              <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-12 w-auto object-contain" />
+              {{ $logo := .Fit "420x132 webp q90" }}
+              <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-14 w-auto object-contain" />
             {{ else }}
               {{ partial "utilities/image.html" (dict "src" . "class" "h-12 w-auto object-contain") }}
             {{ end }}
