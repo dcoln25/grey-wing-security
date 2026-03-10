@@ -57,10 +57,6 @@ Modern infrastructure built for performance, scalability, and security. We desig
 
 ---
 
-{{< lead >}}
 Need a custom engagement? Every organization is different.
-{{< /lead >}}
 
-{{< button href="../contact/" target="_self" >}}
-Contact Us →
-{{< /button >}}
+[Contact Us →](../contact/)

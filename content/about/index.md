@@ -26,6 +26,4 @@ We don't believe in one-size-fits-all security. Every engagement starts with und
 
 ---
 
-{{< button href="../contact/" target="_self" >}}
-Get in Touch →
-{{< /button >}}
+[Get in Touch →](../contact/)
