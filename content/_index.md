@@ -3,25 +3,13 @@ title: "Grey Wing Security"
 description: "Expert managed security, incident response, and compliance services to protect your organization."
 ---
 
-<div class="flex flex-col items-center text-center">
-
-{{< button href="about/" target="_self" >}}
-Learn More About Us
-{{< /button >}}
-&nbsp;
-{{< button href="contact/" target="_self" >}}
-Contact Us
-{{< /button >}}
-
-</div>
+[Learn More About Us](about/) | [Contact Us](contact/)
 
 ---
 
 ## What We Do
 
-{{< lead >}}
 Comprehensive security services tailored to your needs.
-{{< /lead >}}
 
 <div class="service-grid">
 
@@ -63,9 +51,7 @@ Navigate complex regulatory requirements with confidence. Achieve and maintain c
 
 </div>
 
-{{< button href="services/" target="_self" >}}
-Explore All Services →
-{{< /button >}}
+[Explore All Services →](services/)
 
 ---
 

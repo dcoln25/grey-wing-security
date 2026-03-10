@@ -1,50 +1,5 @@
-colorScheme = "ocean"
-defaultAppearance = "dark"
-autoSwitchAppearance = false
+description = "Expert managed security, incident response, and compliance services to protect your organization."
+logo = "images/logo.jpg"
 
-enableSearch = true
-enableCodeCopy = true
-
-defaultSocialImage = "og-image.png"
-
-[header]
-  layout = "fixed"
-
-[footer]
-  showMenu = true
-  showCopyright = true
-  showThemeAttribution = false
-  showAppearanceSwitcher = false
-  showScrollToTop = true
-
-[homepage]
-  layout = "hero"
-  showRecent = true
-  showRecentItems = 5
-  showMoreLink = true
-  showMoreLinkDest = "/blog/"
-  cardView = true
-  cardViewScreenWidth = false
-
-[article]
-  showDate = true
-  showAuthor = true
-  showHero = true
-  heroStyle = "basic"
-  showBreadcrumbs = true
-  showDraftLabel = true
-  showPagination = false
-  showReadingTime = true
-  showTableOfContents = true
-  showTaxonomies = true
-  showWordCount = false
-  showRelatedContent = true
-  relatedContentLimit = 3
-
-[list]
-  showHero = false
-  showBreadcrumbs = true
-  showSummary = true
-  showCards = true
-  cardView = true
-  groupByYear = false
+[colors]
+  primary = "#1d4ed8"

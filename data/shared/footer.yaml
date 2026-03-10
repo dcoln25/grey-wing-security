@@ -1,0 +1,14 @@
+contact:
+  title: "Contact"
+  items:
+    - label: "contact@greywingsec.com"
+      link: "mailto:contact@greywingsec.com"
+    - label: "Grey Wing Security on LinkedIn"
+      link: "https://linkedin.com/company/grey-wing-security"
+
+social:
+  - title: "LinkedIn"
+    link: "https://linkedin.com/company/grey-wing-security"
+    icon: "fa-brands fa-linkedin-in"
+
+copyright: "© 2026 Grey Wing Security, LLC. All rights reserved."

@@ -1,0 +1,67 @@
+<nav class="z-50">
+  <div class="w-full flex items-center justify-between pr-4 py-3 xl:py-4">
+    <a class="flex items-center" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
+      {{ with site.Params.logo }}
+        {{ with resources.Get . }}
+          {{ $logo := .Fit "240x72 webp q90" }}
+          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-12 xl:h-14 w-auto object-contain" />
+        {{ else }}
+          {{ partial "utilities/image.html" (dict "src" . "class" "h-12 xl:h-14 w-auto object-contain") }}
+        {{ end }}
+      {{ else }}
+        <span class="text-primary text-xl font-semibold uppercase xl:text-3xl">{{ .Site.Title }}</span>
+      {{ end }}
+    </a>
+    <button
+      class="cursor-pointer xl:hidden"
+      type="button"
+      data-toggle-target="#navbarContent"
+      data-toggle-class="-translate-y-full"
+      aria-label="Toggle Navigation"
+    >
+      {{ partial "heroicons/bars-4" }}
+    </button>
+    <div
+      class="fixed inset-0 flex -translate-y-full flex-col items-center justify-center gap-8 bg-white duration-500 xl:relative xl:translate-y-0 xl:flex-row"
+      id="navbarContent"
+    >
+      <div class="w-full absolute top-0 flex items-center justify-between pr-4 py-3 xl:hidden bg-white">
+        <a class="flex items-center xl:hidden" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
+          {{ with site.Params.logo }}
+            {{ with resources.Get . }}
+              {{ $logo := .Fit "240x72 webp q90" }}
+              <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-12 w-auto object-contain" />
+            {{ else }}
+              {{ partial "utilities/image.html" (dict "src" . "class" "h-12 w-auto object-contain") }}
+            {{ end }}
+          {{ else }}
+            <span class="text-primary text-xl font-semibold uppercase">{{ .Site.Title }}</span>
+          {{ end }}
+        </a>
+        <button
+          class="cursor-pointer xl:hidden"
+          type="button"
+          data-toggle-target="#navbarContent"
+          data-toggle-class="-translate-y-full"
+          aria-label="Toggle Navigation"
+        >
+          {{ partial "heroicons/x-mark" }}
+        </button>
+      </div>
+      <ul class="flex flex-col gap-8 xl:flex-row">
+        {{ range site.Menus.main }}
+          <li class="text-center">
+            <a class="text-primary" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+      <ul class="flex flex-col gap-8 xl:flex-row">
+        {{ range .Site.Menus.buttons }}
+          <li class="text-center">
+            {{ partial "components/button/primary" (dict "label" .Name "href" .URL ) }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

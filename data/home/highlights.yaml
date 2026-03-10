@@ -1,0 +1,12 @@
+enable: true
+items:
+  - title: "Why Grey Wing Security?"
+    text: "Proactive defense, clear communication, continuous improvement, and around-the-clock support for modern threat environments."
+    button:
+      label: "Explore Services"
+      link: "/services/"
+  - title: "Need a custom engagement?"
+    text: "Every organization is different. We tailor strategy and execution to your business goals, risk profile, and operating model."
+    button:
+      label: "Talk to Our Team"
+      link: "/contact/"
