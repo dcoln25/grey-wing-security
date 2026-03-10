@@ -1,12 +1,12 @@
-<nav class="z-50">
-  <div class="w-full flex items-center justify-between pr-4 py-3 xl:py-4">
+<nav class="z-50 bg-white xl:bg-transparent">
+  <div class="w-full flex items-center justify-between px-4 py-3 xl:py-4">
     <a class="flex items-center" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
       {{ with site.Params.logo }}
         {{ with resources.Get . }}
           {{ $logo := .Fit "420x132 webp q90" }}
-          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-14 xl:h-20 w-auto object-contain" />
+          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="ml-4 xl:ml-6 h-14 xl:h-20 w-auto object-contain" />
         {{ else }}
-          {{ partial "utilities/image.html" (dict "src" . "class" "h-12 xl:h-14 w-auto object-contain") }}
+          {{ partial "utilities/image.html" (dict "src" . "class" "ml-4 xl:ml-6 h-12 xl:h-14 w-auto object-contain") }}
         {{ end }}
       {{ else }}
         <span class="text-primary text-xl font-semibold uppercase xl:text-3xl">{{ .Site.Title }}</span>
@@ -25,14 +25,14 @@
       class="fixed inset-0 flex -translate-y-full flex-col items-center justify-center gap-8 bg-white duration-500 xl:relative xl:translate-y-0 xl:flex-row"
       id="navbarContent"
     >
-      <div class="w-full absolute top-0 flex items-center justify-between pr-4 py-3 xl:hidden bg-white">
+      <div class="w-full absolute top-0 flex items-center justify-between px-4 py-3 xl:hidden bg-white">
         <a class="flex items-center xl:hidden" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Title }}">
           {{ with site.Params.logo }}
             {{ with resources.Get . }}
               {{ $logo := .Fit "420x132 webp q90" }}
-              <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-14 w-auto object-contain" />
+              <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="ml-4 h-14 w-auto object-contain" />
             {{ else }}
-              {{ partial "utilities/image.html" (dict "src" . "class" "h-12 w-auto object-contain") }}
+              {{ partial "utilities/image.html" (dict "src" . "class" "ml-4 h-12 w-auto object-contain") }}
             {{ end }}
           {{ else }}
             <span class="text-primary text-xl font-semibold uppercase">{{ .Site.Title }}</span>
