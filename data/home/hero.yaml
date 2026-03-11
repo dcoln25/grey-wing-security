@@ -1,7 +1,7 @@
 enable: true
 title: "Cybersecurity You Can Trust"
 text: "Grey Wing Security delivers managed security services, rapid incident response, and compliance guidance tailored to your organization."
-image: "images/logo.jpg"
+video: "video/Grey_Wing_Security.mp4"
 buttons:
   - label: "Learn More"
     link: "/about/"
