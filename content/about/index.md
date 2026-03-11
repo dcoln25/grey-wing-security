@@ -10,20 +10,28 @@ showTableOfContents: false
 
 ## Who We Are
 
-Grey Wing Security, LLC is a cybersecurity firm dedicated to helping organizations protect their digital assets and maintain a strong security posture. We combine deep technical expertise with a proactive, business-minded approach to security.
+Grey Wing Security, LLC helps organizations strengthen security without slowing delivery. We work as an embedded partner to engineering and IT teams — combining hands-on technical execution with practical business alignment.
 
 ## Our Mission
 
-Our mission is to make expert-level cybersecurity accessible to organizations of all sizes. We believe that every business deserves robust protection against modern cyber threats.
+Our mission is to make expert cybersecurity execution accessible to organizations of every size, from high-growth startups to enterprise teams modernizing legacy environments.
 
 ## Our Approach
 
-We don't believe in one-size-fits-all security. Every engagement starts with understanding your unique environment, risks, and business objectives. From there, we build a tailored security strategy that evolves with the threat landscape.
+We don't do one-size-fits-all security. Every engagement starts with your environment, risk profile, and business objectives. From there, we prioritize what matters most and execute with your team.
 
-- **Proactive Defense** — We focus on prevention, not just reaction. Our strategies anticipate threats before they become incidents.
-- **Clear Communication** — Security shouldn't be a black box. We keep you informed every step of the way with clear, actionable insights.
-- **Continuous Improvement** — The threat landscape changes daily. Our approach evolves with it, keeping your defenses current and effective.
+- **Embedded Execution** — We build, tune, and harden controls directly in your stack instead of handing over generic recommendations.
+- **Clear Communication** — We translate technical risk into clear decisions for leaders and actionable next steps for engineers.
+- **Outcome-Driven Security** — We focus on measurable improvements in detection, response, access control, and audit readiness.
+
+## What Teams Bring Us In For
+
+- Building or augmenting managed security operations
+- Incident response readiness and live incident support
+- Identity and access modernization (Okta, Entra ID, OneLogin, JumpCloud)
+- SOC 2, HIPAA, and NIST-aligned audit readiness
+- Security-first cloud and infrastructure engineering
 
 ---
 
-[Get in Touch →](../contact/)
+[Book a Free Assessment →](../contact/)
