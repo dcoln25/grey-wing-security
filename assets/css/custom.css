@@ -110,57 +110,76 @@ body {
   height: 80px;
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-panel {
+  background: #1d4ed8;
+  border-radius: 14px;
+  padding: 1.5rem;
+  color: #ffffff;
+}
+
+.contact-panel .contact-form {
   width: 100%;
-  padding: 0.75rem;
-  border: 1px solid rgba(15, 23, 42, 0.18);
-  border-radius: 8px;
-  background: #ffffff;
-  color: #0f172a;
-  font-size: 1rem;
+  margin: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-  color: #64748b;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: none;
-  border-color: #4f8ff7;
-}
-
-.contact-form label {
+.contact-panel .contact-form label {
   display: block;
-  margin-bottom: 0.25rem;
-  font-weight: 500;
+  margin-bottom: 0.35rem;
+  padding-left: 0.25rem;
+  font-weight: 600;
+  color: #f8fafc;
 }
 
-.contact-form .form-group {
+.contact-panel .contact-form .form-group {
   margin-bottom: 1rem;
 }
 
-.contact-form .form-group-lg {
+.contact-panel .contact-form .form-group-lg {
   margin-bottom: 1.5rem;
 }
 
-.contact-form textarea {
-  resize: vertical;
+.contact-panel .contact-form input,
+.contact-panel .contact-form textarea {
+  width: 100%;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #0f172a;
+  font-size: 1rem;
+  box-sizing: border-box;
 }
 
-.contact-form button[type="submit"] {
+.contact-panel .contact-form input::placeholder,
+.contact-panel .contact-form textarea::placeholder {
+  color: #64748b;
+}
+
+.contact-panel .contact-form input:focus,
+.contact-panel .contact-form textarea:focus {
+  outline: none;
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.35);
+}
+
+.contact-panel .contact-form textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-panel .contact-form button[type="submit"] {
   padding: 0.75rem 2rem;
-  background: #4f8ff7;
-  color: #fff;
+  background: #ffffff;
+  color: #1d4ed8;
   border: none;
-  border-radius: 8px;
+  border-radius: 9999px;
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
 }
 
-.contact-form button[type="submit"]:hover {
-  background: #7bafff;
+.contact-panel .contact-form button[type="submit"]:hover {
+  background: #e2e8f0;
 }
