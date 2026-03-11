@@ -19,10 +19,6 @@
   weight = 30
 
 [[main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 40
-
 [[buttons]]
   name = "Get Started"
   url = "/contact/"
