@@ -10,5 +10,8 @@ social:
   - title: "LinkedIn"
     link: "https://linkedin.com/company/grey-wing-security"
     icon: "fa-brands fa-linkedin-in"
+  - title: "X"
+    link: "https://x.com/greywingsec"
+    icon: "fa-brands fa-x-twitter"
 
 copyright: "© 2026 Grey Wing Security, LLC. All rights reserved."
