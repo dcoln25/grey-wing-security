@@ -32,20 +32,20 @@ Have a question, need a consultation, or ready to get started? Reach out through
     <input type="text" name="_honey" style="display:none">
     <div class="form-group">
       <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="name" required style="background: #ffffff; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 8px;">
     </div>
     <div class="form-group">
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email" required style="background: #ffffff; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 8px;">
     </div>
     <div class="form-group">
       <label for="company">Company</label>
-      <input type="text" id="company" name="company">
+      <input type="text" id="company" name="company" style="background: #ffffff; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 8px;">
     </div>
     <div class="form-group-lg">
       <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+      <textarea id="message" name="message" rows="5" required style="background: #ffffff; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 8px;"></textarea>
     </div>
-    <button type="submit">Send Message</button>
+    <button type="submit" style="background: #ffffff; color: #1d4ed8; border: none; border-radius: 9999px; padding: 0.75rem 2rem; font-weight: 600;">Send Message</button>
   </form>
 </div>
