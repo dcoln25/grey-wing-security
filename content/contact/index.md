@@ -46,6 +46,6 @@ Book a free 30-minute assessment and we'll help you prioritize the next security
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="5" required style="background:#ffffff; color:#0f172a; border:1px solid #cbd5e1; border-radius:10px; padding:0.8rem 0.9rem; box-sizing:border-box; width:100%; min-height:140px;"></textarea>
     </div>
-    <button type="submit">Send Message</button>
+    <button type="submit" style="background:#1d4ed8; color:#ffffff; border:1px solid #93c5fd; border-radius:9999px; padding:0.75rem 2rem; font-weight:600; cursor:pointer;">Send Message</button>
   </form>
 </div>
