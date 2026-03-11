@@ -24,28 +24,28 @@ Book a free 30-minute assessment and we'll help you prioritize the next security
 
 ## Send Us a Message
 
-<div style="background: #1d4ed8; border-radius: 12px; padding: 1.5rem; color: #ffffff;">
-  <form class="contact-form" action="https://formsubmit.co/contact@greywingsec.com" method="POST" style="width: 100%; margin: 0; padding: 0 1rem; box-sizing: border-box;">
+<div class="contact-panel">
+  <form class="contact-form" action="https://formsubmit.co/contact@greywingsec.com" method="POST">
     <input type="hidden" name="_subject" value="New contact from Grey Wing Security website">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="https://dcoln25.github.io/grey-wing-security/contact/">
     <input type="text" name="_honey" style="display:none">
     <div class="form-group">
-      <label for="name" style="padding-left: 0.25rem;">Name</label>
-      <input type="text" id="name" name="name" required style="background: #ffffff; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 8px;">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
     </div>
     <div class="form-group">
-      <label for="email" style="padding-left: 0.25rem;">Email</label>
-      <input type="email" id="email" name="email" required style="background: #ffffff; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 8px;">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
     </div>
     <div class="form-group">
-      <label for="company" style="padding-left: 0.25rem;">Company</label>
-      <input type="text" id="company" name="company" style="background: #ffffff; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 8px;">
+      <label for="company">Company</label>
+      <input type="text" id="company" name="company">
     </div>
     <div class="form-group-lg">
-      <label for="message" style="padding-left: 0.25rem;">Message</label>
-      <textarea id="message" name="message" rows="5" required style="background: #ffffff; color: #0f172a; border: 1px solid #cbd5e1; border-radius: 8px;"></textarea>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
     </div>
-    <button type="submit" style="background: #ffffff; color: #1d4ed8; border: none; border-radius: 9999px; padding: 0.75rem 2rem; font-weight: 600;">Send Message</button>
+    <button type="submit">Send Message</button>
   </form>
 </div>
