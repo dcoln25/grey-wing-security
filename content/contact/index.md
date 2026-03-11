@@ -32,19 +32,19 @@ Book a free 30-minute assessment and we'll help you prioritize the next security
     <input type="text" name="_honey" style="display:none">
     <div class="form-group">
       <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="name" required style="background:#ffffff; color:#0f172a; border:1px solid #cbd5e1; border-radius:10px; padding:0.8rem 0.9rem; box-sizing:border-box; width:100%;">
     </div>
     <div class="form-group">
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email" required style="background:#ffffff; color:#0f172a; border:1px solid #cbd5e1; border-radius:10px; padding:0.8rem 0.9rem; box-sizing:border-box; width:100%;">
     </div>
     <div class="form-group">
       <label for="company">Company</label>
-      <input type="text" id="company" name="company">
+      <input type="text" id="company" name="company" style="background:#ffffff; color:#0f172a; border:1px solid #cbd5e1; border-radius:10px; padding:0.8rem 0.9rem; box-sizing:border-box; width:100%;">
     </div>
     <div class="form-group-lg">
       <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+      <textarea id="message" name="message" rows="5" required style="background:#ffffff; color:#0f172a; border:1px solid #cbd5e1; border-radius:10px; padding:0.8rem 0.9rem; box-sizing:border-box; width:100%; min-height:140px;"></textarea>
     </div>
     <button type="submit">Send Message</button>
   </form>
