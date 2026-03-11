@@ -25,7 +25,7 @@ Have a question, need a consultation, or ready to get started? Reach out through
 ## Send Us a Message
 
 <div style="background: #1d4ed8; border-radius: 12px; padding: 1.5rem; color: #ffffff;">
-  <form class="contact-form" action="https://formsubmit.co/contact@greywingsec.com" method="POST" style="max-width: 600px; margin: 0 auto;">
+  <form class="contact-form" action="https://formsubmit.co/contact@greywingsec.com" method="POST" style="width: 100%; margin: 0;">
     <input type="hidden" name="_subject" value="New contact from Grey Wing Security website">
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="https://dcoln25.github.io/grey-wing-security/contact/">
