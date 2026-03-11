@@ -1,15 +1,15 @@
 ---
 title: "Grey Wing Security"
-description: "Expert managed security, incident response, and compliance services to protect your organization."
+description: "Managed security, incident response, IAM migration, and compliance execution for modern teams."
 ---
 
-[Learn More About Us](about/) | [Contact Us](contact/)
+[Explore Services](services/) | [Book a Free Assessment](contact/)
 
 ---
 
 ## What We Do
 
-Comprehensive security services tailored to your needs.
+Grey Wing Security helps teams reduce real-world risk with execution across detection and response, identity and access, compliance, and secure infrastructure.
 
 <div class="service-grid">
 
@@ -21,7 +21,7 @@ Comprehensive security services tailored to your needs.
 
 ### Managed Security Services
 
-Continuous monitoring, threat detection, and security operations so you can focus on running your business.
+24/7 monitoring, alert triage, and response support so your team can ship product instead of chasing noise.
 
 </div>
 
@@ -33,7 +33,7 @@ Continuous monitoring, threat detection, and security operations so you can focu
 
 ### Incident Response
 
-Rapid containment and recovery when a breach occurs. We minimize damage and get you back online fast.
+Rapid containment, forensic support, and recovery coordination when incidents happen.
 
 </div>
 
@@ -45,7 +45,7 @@ Rapid containment and recovery when a breach occurs. We minimize damage and get 
 
 ### Compliance
 
-Navigate complex regulatory requirements with confidence. Achieve and maintain compliance with industry standards.
+SOC 2, HIPAA, NIST, and PCI readiness with controls that are implemented in your stack, not just documented.
 
 </div>
 
@@ -59,10 +59,10 @@ Navigate complex regulatory requirements with confidence. Achieve and maintain c
 
 <div style="text-align: left;">
 
-- **Proactive Defense** — We focus on prevention, not just reaction
-- **Clear Communication** — Security shouldn't be a black box
-- **Continuous Improvement** — Our approach evolves as threats change daily
-- **24/7 Support** — Around-the-clock monitoring and rapid response
+- **Embedded with Your Team** — We execute alongside engineering and IT, not outside them
+- **Practical Security Decisions** — We focus on the highest-impact issues first
+- **Identity-First Approach** — We treat IAM and IdP migrations as core security work
+- **Business-Aligned Outcomes** — We improve protection without blocking velocity
 
 </div>
 

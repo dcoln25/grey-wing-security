@@ -10,7 +10,7 @@ showTableOfContents: false
 
 ## Let's Talk Security
 
-Have a question, need a consultation, or ready to get started? Reach out through any of the channels below and we'll get back to you promptly.
+Book a free 30-minute assessment and we'll help you prioritize the next security actions for your environment. No slide deck, no pressure — just practical guidance.
 
 ### Email
 

@@ -1,12 +1,12 @@
 enable: true
 items:
-  - title: "Why Grey Wing Security?"
-    text: "Proactive defense, clear communication, continuous improvement, and around-the-clock support for modern threat environments."
+  - title: "Security that matches how you actually operate"
+    text: "We prioritize high-impact risks, translate technical findings into business decisions, and execute side-by-side with engineering and IT teams."
     button:
       label: "Explore Services"
       link: "/services/"
-  - title: "Need a custom engagement?"
-    text: "Every organization is different. We tailor strategy and execution to your business goals, risk profile, and operating model."
+  - title: "Let's scope your next security milestone"
+    text: "Whether you need SOC support, an incident response plan, an IdP migration, or audit readiness, we'll map a practical path in a 30-minute discovery call."
     button:
-      label: "Talk to Our Team"
+      label: "Book a Free Assessment"
       link: "/contact/"
