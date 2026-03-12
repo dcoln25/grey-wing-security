@@ -4,9 +4,9 @@
       {{ with site.Params.logo }}
         {{ with resources.Get . }}
           {{ $logo := .Fit "420x132 webp q90" }}
-          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="ml-4 xl:ml-6 h-14 xl:h-20 w-auto object-contain" />
+          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-16 xl:h-24 w-auto object-contain" />
         {{ else }}
-          {{ partial "utilities/image.html" (dict "src" . "class" "ml-4 xl:ml-6 h-12 xl:h-14 w-auto object-contain") }}
+          {{ partial "utilities/image.html" (dict "src" . "class" "h-14 xl:h-16 w-auto object-contain") }}
         {{ end }}
       {{ else }}
         <span class="text-primary text-xl font-semibold uppercase xl:text-3xl">{{ .Site.Title }}</span>
@@ -30,9 +30,9 @@
           {{ with site.Params.logo }}
             {{ with resources.Get . }}
               {{ $logo := .Fit "420x132 webp q90" }}
-              <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="ml-4 h-14 w-auto object-contain" />
+              <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-16 w-auto object-contain" />
             {{ else }}
-              {{ partial "utilities/image.html" (dict "src" . "class" "ml-4 h-12 w-auto object-contain") }}
+              {{ partial "utilities/image.html" (dict "src" . "class" "h-14 w-auto object-contain") }}
             {{ end }}
           {{ else }}
             <span class="text-primary text-xl font-semibold uppercase">{{ .Site.Title }}</span>
