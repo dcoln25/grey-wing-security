@@ -4,9 +4,9 @@
       {{ with site.Params.logo }}
         {{ with resources.Get . }}
           {{ $logo := .Fit "420x132 webp q90" }}
-          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-16 xl:h-24 w-auto object-contain" />
+          <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="{{ site.Title }}" class="h-16 xl:h-24 w-auto object-contain xl:translate-y-1" />
         {{ else }}
-          {{ partial "utilities/image.html" (dict "src" . "class" "h-14 xl:h-16 w-auto object-contain") }}
+          {{ partial "utilities/image.html" (dict "src" . "class" "h-14 xl:h-16 w-auto object-contain xl:translate-y-1") }}
         {{ end }}
       {{ else }}
         <span class="text-primary text-xl font-semibold uppercase xl:text-3xl">{{ .Site.Title }}</span>
